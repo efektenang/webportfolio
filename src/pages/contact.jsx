@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/contact.css";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
 	useEffect(() => {
@@ -48,10 +49,14 @@ const Contact = () => {
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
+							&nbsp;{""}
+							<Link
+								className="contact-link"
+								to={`mailto:${INFO.main.email}`}
+								target="_blank"
+							>
 								{INFO.main.email}
-							</a>
+							</Link>
 							. I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
 							periods. Alternatively, you can use the contact form
@@ -59,13 +64,14 @@ const Contact = () => {
 							required fields and I'll get back to you as soon as
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
+							<Link
+								className="contact-link"
+								to={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
 							>
 								{INFO.socials.instagram}
-							</a>
+							</Link>
 							. I post regular updates and engage with my
 							followers there, so don't hesitate to reach out.
 							Thanks again for your interest, and I look forward

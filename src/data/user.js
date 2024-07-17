@@ -3,7 +3,7 @@ const INFO = {
 		title: "Efektenang Portfolio Web Page",
 		name: "Muhammad Arizki",
 		email: "arizkymuhammad46@gmail.com",
-		logo: "../man.png",
+		logo: "../logo.png",
 	},
 
 	socials: {

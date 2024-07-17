@@ -21,7 +21,7 @@
 	height: 40px;
 	padding-left: 0%;
 	padding-right: 0%;
-	background: #14b8a6;
+	background: #1989AC;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 	border-radius: 40px;
 }
@@ -42,17 +42,20 @@
 }
 
 .nav-item.active a {
-	color: var(--quaternary-color) !important;
+	padding: 1px 8px;
+	color: #FEF5EA;
+	border: 2.5px solid #fef5ea6a;
+	border-radius: 15px;
 }
 
 .nav-item a {
 	text-decoration: none;
-	color: var(--primary-color);
+	color: #fef5ea8f;
 }
 
 .nav-item a:hover {
 	color: var(--quaternary-color);
-	transition: color 0.3s ease-in-out;
+	transition: color 0.5s ease-in-out;
 }
 
 @media (max-width: 600px) {
