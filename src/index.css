@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto:wght@500&display=swap");
 @import "./data/styles.css";
 
-body {
+html, body {
 	margin: 0;
 	overflow-x: hidden;
 	font-family: var(--primary-font);
