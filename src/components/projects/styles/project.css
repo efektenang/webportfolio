@@ -69,4 +69,12 @@
 	.project {
 		height: 300px;
 	}
+
+	.project-container {
+		padding: 20px;
+	}
+
+	.project-description {
+		font-size: 13px;
+	}
 }
