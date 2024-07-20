@@ -17,6 +17,10 @@
 	transition: background-color 0.3s ease-in-out;
 }
 
+.project:hover .project-title {
+	color: var(--secondary-color);
+}
+
 .project:hover .project-link {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
@@ -36,11 +40,11 @@
 
 .project-title {
 	font-family: var(--secondary-font);
-	color: var(--secondary-color);
+	color: var(--quaternary-color);
 	font-size: 16px;
 	padding-top: 15px;
 	margin-bottom: 1em;
-	font-weight: 700;
+	font-weight: 100;
 }
 
 .project-description {
