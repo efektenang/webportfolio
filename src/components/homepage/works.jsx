@@ -47,7 +47,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Biro Sistem Informasi, UMSU</div>
 							<div className="work-subtitle">
-								IT Support, Web Programmer
+								IT Support | Internship
 							</div>
 							<div className="work-duration">2020 - 2022</div>
 						</div>
