@@ -36,7 +36,7 @@
 
 .work-duration {
 	position: absolute;
-	width: 350px;
+	width: 540px;
 	font-size: 12px;
 	padding-top: 20px;
 	text-align: right;
@@ -44,6 +44,10 @@
 }
 
 @media (max-width: 800px) {
+	.work {
+		padding-bottom: 50px;
+	}
+
 	.work-duration {
 		display: flex;
 		margin-top: 23px;

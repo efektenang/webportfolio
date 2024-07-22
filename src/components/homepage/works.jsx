@@ -4,6 +4,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 import "./styles/works.css";
+import { Button } from "../common/button";
 
 const Works = () => {
 	return (
@@ -15,7 +16,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./corporate.png"
+								src="./logo-80x80.png"
 								alt="corporate"
 								className="work-image"
 							/>
@@ -51,6 +52,7 @@ const Works = () => {
 							</div>
 							<div className="work-duration">2020 - 2022</div>
 						</div>
+						<Button label={'Download CV'} href={'./current-cv.pdf'} />
 					</div>
 				}
 			/>

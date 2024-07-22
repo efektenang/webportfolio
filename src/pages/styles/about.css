@@ -50,14 +50,24 @@
 .about-image-wrapper {
 	display: inline-block;
 	overflow: hidden;
-	width: 90%;
+	width: 80%;
 	border-radius: 8%;
 	transform: rotate(3deg);
+	transition: 0.3s ease-in-out;
+}
+
+.about-image-wrapper:hover {
+	transform: rotate(0deg);
 }
 
 .about-image-wrapper img {
 	display: block;
 	width: 100%;
+	transition: 0.3s ease-in-out;
+}
+
+.about-image-wrapper img:hover {
+	width: 110%;
 }
 
 .about-socials {
