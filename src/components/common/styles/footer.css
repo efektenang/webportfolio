@@ -32,10 +32,13 @@
 .footer-nav-link-list a {
 	text-decoration: none;
 	color: var(--secondary-color);
+	border-bottom: 2px solid transparent;
+	transition: 0.3s ease-in-out;
 }
 
 .footer-nav-link-list a:hover {
 	color: var(--link-color);
+	border-bottom: 2px solid var(--link-color);
 }
 
 .footer-credits-text {

@@ -72,6 +72,7 @@
 @media (max-width: 600px) {
 	.project {
 		height: 300px;
+		margin: 0 15px;
 	}
 
 	.project-container {
