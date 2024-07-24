@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Efektenang Portfolio Web Page",
+		title: "Efektenang Webpage",
 		name: "Muhammad Arizki",
 		email: "arizkymuhammad46@gmail.com",
 		logo: "../logo.png",

@@ -1,5 +1,5 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
@@ -42,6 +42,19 @@ const Works = () => {
 
 						<div className="work">
 							<img
+								src="./bangkit-logo.jpg"
+								alt="Bangkit Logo"
+								className="work-image"
+							/>
+							<div className="work-title">Bangkit Academy 2022</div>
+							<div className="work-subtitle">
+								Cloud Computing Learning Path Student
+							</div>
+							<div className="work-duration">2022</div>
+						</div>
+
+						<div className="work">
+							<img
 								src="./admin.png"
 								alt="UMSU Logo"
 								className="work-image"
@@ -52,7 +65,7 @@ const Works = () => {
 							</div>
 							<div className="work-duration">2020 - 2022</div>
 						</div>
-						<Button label={'Download CV'} href={'./current-cv.pdf'} />
+						<Button icon={faArrowRight} label={'Download CV'} href={'./current-cv.pdf'} />
 					</div>
 				}
 			/>
