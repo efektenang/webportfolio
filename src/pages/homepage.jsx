@@ -154,6 +154,12 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
+							<h1
+								className="title homepage-project-title"
+								style={{ fontSize: "35px" }}
+							>
+								Our Projects
+							</h1>
 							<AllProjects />
 						</div>
 

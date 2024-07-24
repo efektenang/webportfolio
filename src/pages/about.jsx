@@ -10,6 +10,8 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import { Button } from "../components/common/button";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
 	useEffect(() => {
@@ -48,6 +50,7 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								<Button icon={faPhone} label={"Let's Talk"} href={'https://api.whatsapp.com/send?phone=6282294919844&text=Halo,%20saya%20ingin%20terhubung%20dengan%20anda.'} />
 							</div>
 
 							<div className="about-left-side">

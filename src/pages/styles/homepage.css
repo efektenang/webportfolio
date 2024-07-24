@@ -31,6 +31,12 @@
 	width: 85% !important;
 }
 
+.homepage-project-title {
+	display: flex;
+	justify-content: center;
+	width: 100% !important;
+}
+
 .homepage-first-area-right-side {
 	display: flex;
 	align-items: center;
@@ -83,9 +89,19 @@
 	display: flex;
 }
 
+.homepage-projects::before {
+	content: "";
+	display: block;
+	padding-top: 10px;
+	border-top: 2px solid var(--secondary-color);
+	margin-top: 20px;
+	width: 75%;
+	margin: 0 auto;
+}
+
 .homepage-projects {
 	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 
 .homepage-articles {
